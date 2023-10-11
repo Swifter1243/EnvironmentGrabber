@@ -48,7 +48,7 @@ const EXPORT_LOCATION =
     Time to sample the environment at.
     Can be expressed as a single number for the beat or a timestamp (such as '0:00')
 */
-const SAMPLE_TIME: Timestamp = '2:16'
+const SAMPLE_TIME: Timestamp = '0:15'
 
 /** Whether to force static lights in the environment (use only custom initializing events) */
 const FORCE_STATIC_LIGHTS = true
@@ -165,6 +165,7 @@ customEvents = customEvents.map((x) => {
                 rotation: x._data._rotation,
                 localRotation: x._data._localRotation,
                 scale: x._data._scale,
+                repeat: 1,
             },
         }
 
@@ -436,12 +437,13 @@ environment = environment.map((x) => {
                 time <= sampleBeats
             ) {
                 const fraction = findFraction(e)
+                const endOfEvent = time + (e.d.duration ?? 0) * e.d.repeat
 
-                applyFractionTransform('position', data, fraction, x, time)
-                applyFractionTransform('localPosition', data, fraction, x, time)
-                applyFractionTransform('rotation', data, fraction, x, time)
-                applyFractionTransform('localRotation', data, fraction, x, time)
-                applyFractionTransform('scale', data, fraction, x, time)
+                applyFractionTransform('position', data, fraction, x, endOfEvent)
+                applyFractionTransform('localPosition', data, fraction, x, endOfEvent)
+                applyFractionTransform('rotation', data, fraction, x, endOfEvent)
+                applyFractionTransform('localRotation', data, fraction, x, endOfEvent)
+                applyFractionTransform('scale', data, fraction, x, endOfEvent)
             }
         })
     }
