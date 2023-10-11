@@ -20,4 +20,6 @@ Simply edit the fields in the "**YOU CHANGE**" section and run the script with `
 
 # Environment Repository
 
+Here are (mostly) all of the environments from my maps in one place for you to play with.
+
 Take any environment from [this](https://github.com/Swifter1243/EnvironmentGrabber/blob/main/DOWNLOAD.md) page and place it in your `Beat Saber\UserData\Chroma\Environments` folder.
