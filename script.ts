@@ -51,15 +51,16 @@ const HUD_TRANSFORM: Transform = {
     // rotation: [90, 0, 0],
     // scale: [0.5, 0.5, 0],
 
-    rotation: [60, 0, 0],
-    position: [0, -1, 7],
+    // These are the transforms I actually used in this example
+    // rotation: [60, 0, 0],
+    // position: [0, -1, 7],
 
     // The "untouched" distance the panel is from the origin
     // Used to rotate UI in a more intuitive way, around the bottom of the panel
     panelDefaultDistance: 7,
 }
 
-/** Whether to ignore any elements that move the HUD */
+/** Whether to ignore any existing elements that move the HUD */
 const DEFAULT_HUD = true
 
 //! ------------------------
