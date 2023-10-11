@@ -1,0 +1,6445 @@
+{
+    "version": "1.0.0",
+    "name": "Fragments - Peaks",
+    "author": "Swifter",
+    "environmentVersion": "0.0.1",
+    "environmentName": "BTSEnvironment",
+    "description": "https://beatsaver.com/maps/25ebc",
+    "features": {
+        "useChromaEvents": true,
+        "basicBeatmapEvents": [
+            {
+                "b": 0,
+                "et": 3,
+                "f": 1,
+                "i": 5,
+                "customData": {
+                    "color": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "b": 0,
+                "et": 13,
+                "f": 1,
+                "i": 0
+            },
+            {
+                "b": 0,
+                "et": 1,
+                "f": 1,
+                "i": 5,
+                "customData": {
+                    "color": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "b": 0,
+                "et": 12,
+                "f": 1,
+                "i": 0
+            },
+            {
+                "b": 0,
+                "et": 2,
+                "f": 1,
+                "i": 5,
+                "customData": {
+                    "color": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "b": 0,
+                "et": 1,
+                "f": 1,
+                "i": 5,
+                "customData": {
+                    "color": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "lightID": [
+                        100,
+                        101
+                    ]
+                }
+            },
+            {
+                "b": 0,
+                "et": 4,
+                "f": 1,
+                "i": 5,
+                "customData": {
+                    "color": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "b": 0,
+                "et": 0,
+                "f": 1,
+                "i": 5,
+                "customData": {
+                    "color": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "b": 0,
+                "et": 0,
+                "f": 1,
+                "i": 5,
+                "customData": {
+                    "color": [
+                        0.292,
+                        0.292,
+                        0.619,
+                        0.2
+                    ],
+                    "lightID": 3
+                }
+            },
+            {
+                "b": 0,
+                "et": 1,
+                "f": 1,
+                "i": 5,
+                "customData": {
+                    "color": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "lightID": 3
+                }
+            },
+            {
+                "b": 0,
+                "et": 1,
+                "f": 1,
+                "i": 5,
+                "customData": {
+                    "color": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "lightID": 15
+                }
+            },
+            {
+                "b": 0,
+                "et": 1,
+                "f": 1,
+                "i": 5,
+                "customData": {
+                    "color": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "lightID": 7
+                }
+            }
+        ],
+        "forceEffectsFilter": "NoEffects"
+    },
+    "environment": [
+        {
+            "id": "PillarTrackLaneRing",
+            "lookupMethod": "Contains",
+            "active": false
+        },
+        {
+            "id": "SideLaser",
+            "lookupMethod": "Contains",
+            "active": false
+        },
+        {
+            "id": "CloudsGenerator",
+            "lookupMethod": "Contains",
+            "active": false
+        },
+        {
+            "id": "DirectionalLight",
+            "lookupMethod": "Contains",
+            "active": false
+        },
+        {
+            "id": "Construction$",
+            "lookupMethod": "Regex",
+            "active": false
+        },
+        {
+            "id": "LowCloudsGenerator$",
+            "lookupMethod": "Regex",
+            "active": false
+        },
+        {
+            "id": "HighCloudsGenerator$",
+            "lookupMethod": "Regex",
+            "active": false
+        },
+        {
+            "id": "RectangleFakeGlow$",
+            "lookupMethod": "Regex",
+            "active": false
+        },
+        {
+            "id": "GlowLine",
+            "lookupMethod": "Contains",
+            "position": [
+                0,
+                -41652,
+                0
+            ]
+        },
+        {
+            "id": "BottomGlow",
+            "lookupMethod": "Contains",
+            "position": [
+                0,
+                -41652,
+                0
+            ]
+        },
+        {
+            "id": "TrackMirror$",
+            "lookupMethod": "Regex",
+            "position": [
+                -870,
+                0,
+                -120
+            ],
+            "scale": [
+                4000,
+                1,
+                1.5
+            ]
+        },
+        {
+            "id": "MagicDoorSprite$",
+            "lookupMethod": "Regex",
+            "position": [
+                0,
+                3,
+                60
+            ],
+            "scale": [
+                10,
+                0.0001,
+                1
+            ]
+        },
+        {
+            "id": "MagicDoorSprite\\.\\[\\d*\\]Bloom(L|R)$",
+            "lookupMethod": "Regex",
+            "rotation": [
+                0,
+                0,
+                90
+            ],
+            "scale": [
+                1,
+                10000,
+                1
+            ]
+        },
+        {
+            "id": "MagicDoorSprite\\.\\[\\d*\\]BloomR$",
+            "lookupMethod": "Regex",
+            "position": [
+                0,
+                6,
+                60
+            ]
+        },
+        {
+            "id": "PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": false
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]RotationBaseL\\.\\[\\d*\\](Reflector$|LaserLight)",
+            "lookupMethod": "Regex",
+            "active": false
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]LaserLight",
+            "lookupMethod": "Regex",
+            "active": false
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]RotationBaseL\\.\\[\\d*\\]LaserLH$",
+            "lookupMethod": "Regex",
+            "position": [
+                0,
+                0,
+                360
+            ],
+            "rotation": [
+                0,
+                0,
+                0
+            ],
+            "scale": [
+                40,
+                1,
+                40
+            ]
+        },
+        {
+            "id": "PillarPair\\.\\[\\d*\\]PillarR\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": false
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarR\\.\\[\\d*\\]RotationBaseR\\.\\[\\d*\\](Reflector$|LaserLight)",
+            "lookupMethod": "Regex",
+            "active": false
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarR\\.\\[\\d*\\]LaserLight",
+            "lookupMethod": "Regex",
+            "active": false
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarR\\.\\[\\d*\\]RotationBaseR\\.\\[\\d*\\]LaserRH$",
+            "lookupMethod": "Regex",
+            "position": [
+                -3.856725658119237,
+                192,
+                364.5962666587139
+            ],
+            "rotation": [
+                9.2,
+                75,
+                0
+            ],
+            "scale": [
+                15,
+                0.010101010101010102,
+                15
+            ]
+        },
+        {
+            "id": "SmallPillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": false
+        },
+        {
+            "id": "\\]SmallPillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]RotationBaseL\\.\\[\\d*\\](Reflector$|LaserLight)",
+            "lookupMethod": "Regex",
+            "active": false
+        },
+        {
+            "id": "\\]SmallPillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]LaserLight",
+            "lookupMethod": "Regex",
+            "active": false
+        },
+        {
+            "id": "\\]SmallPillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]RotationBaseL\\.\\[\\d*\\]LaserLH$",
+            "lookupMethod": "Regex",
+            "position": [
+                0,
+                0,
+                372
+            ],
+            "rotation": [
+                18.4,
+                115,
+                0
+            ],
+            "scale": [
+                15,
+                0.010101010101010102,
+                15
+            ]
+        },
+        {
+            "id": "\\]SmallPillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]LaserL$",
+            "lookupMethod": "Regex",
+            "position": [
+                10.180037371315878,
+                4122.0841915613255,
+                -1290.0768175279961
+            ],
+            "rotation": [
+                16.65416,
+                155.23404,
+                -7.062825
+            ],
+            "scale": [
+                8.540808150000002,
+                -3.5570918571428574,
+                23.0171445
+            ]
+        },
+        {
+            "id": "SmallPillarPair\\.\\[\\d*\\]PillarR\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": false
+        },
+        {
+            "id": "\\]SmallPillarPair\\.\\[\\d*\\]PillarR\\.\\[\\d*\\]RotationBaseR\\.\\[\\d*\\](Reflector$|LaserLight)",
+            "lookupMethod": "Regex",
+            "active": false
+        },
+        {
+            "id": "\\]SmallPillarPair\\.\\[\\d*\\]PillarR\\.\\[\\d*\\]LaserLight",
+            "lookupMethod": "Regex",
+            "active": false
+        },
+        {
+            "id": "\\]SmallPillarPair\\.\\[\\d*\\]PillarR\\.\\[\\d*\\]RotationBaseR\\.\\[\\d*\\]LaserRH$",
+            "lookupMethod": "Regex",
+            "position": [
+                0,
+                216,
+                365.25
+            ],
+            "rotation": [
+                8.049999999999999,
+                115,
+                0
+            ],
+            "scale": [
+                15,
+                0.010101010101010102,
+                15
+            ]
+        },
+        {
+            "id": "\\]SmallPillarPair\\.\\[\\d*\\]PillarR\\.\\[\\d*\\]LaserR$",
+            "lookupMethod": "Regex",
+            "position": [
+                46.40875611949118,
+                4499.0894114862895,
+                -1133.3270647100017
+            ],
+            "rotation": [
+                13.692079,
+                155.54752,
+                -5.8478594
+            ],
+            "scale": [
+                7.638863400000001,
+                -3.6721110000000006,
+                17.541027
+            ]
+        },
+        {
+            "id": "PillarPair \\(1\\)\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": false
+        },
+        {
+            "id": "\\]PillarPair \\(1\\)\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]RotationBaseL\\.\\[\\d*\\](Reflector$|LaserLight)",
+            "lookupMethod": "Regex",
+            "active": false
+        },
+        {
+            "id": "\\]PillarPair \\(1\\)\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]LaserLight",
+            "lookupMethod": "Regex",
+            "active": false
+        },
+        {
+            "id": "\\]PillarPair \\(1\\)\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]RotationBaseL\\.\\[\\d*\\]LaserLH$",
+            "lookupMethod": "Regex",
+            "position": [
+                7.231360608973566,
+                24,
+                368.6179999850885
+            ],
+            "rotation": [
+                17.25,
+                155,
+                0
+            ],
+            "scale": [
+                15,
+                0.010101010101010102,
+                15
+            ]
+        },
+        {
+            "id": "PillarPair \\(1\\)\\.\\[\\d*\\]PillarR\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": false
+        },
+        {
+            "id": "\\]PillarPair \\(1\\)\\.\\[\\d*\\]PillarR\\.\\[\\d*\\]RotationBaseR\\.\\[\\d*\\](Reflector$|LaserLight)",
+            "lookupMethod": "Regex",
+            "active": false
+        },
+        {
+            "id": "\\]PillarPair \\(1\\)\\.\\[\\d*\\]PillarR\\.\\[\\d*\\]LaserLight",
+            "lookupMethod": "Regex",
+            "active": false
+        },
+        {
+            "id": "\\]PillarPair \\(1\\)\\.\\[\\d*\\]PillarR\\.\\[\\d*\\]RotationBaseR\\.\\[\\d*\\]LaserRH$",
+            "lookupMethod": "Regex",
+            "position": [
+                2.892544243589427,
+                240,
+                363.4471999940354
+            ],
+            "rotation": [
+                6.8999999999999995,
+                155,
+                0
+            ],
+            "scale": [
+                15,
+                0.010101010101010102,
+                15
+            ]
+        },
+        {
+            "id": "SmallPillarPair \\(1\\)\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": false
+        },
+        {
+            "id": "\\]SmallPillarPair \\(1\\)\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]RotationBaseL\\.\\[\\d*\\](Reflector$|LaserLight)",
+            "lookupMethod": "Regex",
+            "active": false
+        },
+        {
+            "id": "\\]SmallPillarPair \\(1\\)\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]LaserLight",
+            "lookupMethod": "Regex",
+            "active": false
+        },
+        {
+            "id": "\\]SmallPillarPair \\(1\\)\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]RotationBaseL\\.\\[\\d*\\]LaserLH$",
+            "lookupMethod": "Regex",
+            "position": [
+                10.340481406628182,
+                48,
+                361.82330586550273
+            ],
+            "rotation": [
+                16.099999999999998,
+                195,
+                0
+            ],
+            "scale": [
+                15,
+                0.010101010101010102,
+                15
+            ]
+        },
+        {
+            "id": "\\]SmallPillarPair \\(1\\)\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]LaserL$",
+            "lookupMethod": "Regex",
+            "position": [
+                -88.57055442733876,
+                4703.71786675306,
+                -413.51103332219395
+            ],
+            "rotation": [
+                6.5381737,
+                156.12091,
+                -2.5902188
+            ],
+            "scale": [
+                7.066207575000001,
+                -3.7663305,
+                13.244036400000002
+            ]
+        },
+        {
+            "id": "SmallPillarPair \\(1\\)\\.\\[\\d*\\]PillarR\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": false
+        },
+        {
+            "id": "\\]SmallPillarPair \\(1\\)\\.\\[\\d*\\]PillarR\\.\\[\\d*\\]RotationBaseR\\.\\[\\d*\\](Reflector$|LaserLight)",
+            "lookupMethod": "Regex",
+            "active": false
+        },
+        {
+            "id": "\\]SmallPillarPair \\(1\\)\\.\\[\\d*\\]PillarR\\.\\[\\d*\\]LaserLight",
+            "lookupMethod": "Regex",
+            "active": false
+        },
+        {
+            "id": "\\]SmallPillarPair \\(1\\)\\.\\[\\d*\\]PillarR\\.\\[\\d*\\]RotationBaseR\\.\\[\\d*\\]LaserRH$",
+            "lookupMethod": "Regex",
+            "position": [
+                3.69302907379578,
+                264,
+                360.651180666251
+            ],
+            "rotation": [
+                5.75,
+                195,
+                0
+            ],
+            "scale": [
+                15,
+                0.010101010101010102,
+                15
+            ]
+        },
+        {
+            "id": "\\]SmallPillarPair \\(1\\)\\.\\[\\d*\\]PillarR\\.\\[\\d*\\]LaserR$",
+            "lookupMethod": "Regex",
+            "position": [
+                134.48460557266122,
+                4727.511085753061,
+                -392.28119732219386
+            ],
+            "rotation": [
+                6.5381737,
+                156.12091,
+                -2.5902188
+            ],
+            "scale": [
+                7.066207575000001,
+                -3.7663305,
+                13.244036400000002
+            ]
+        },
+        {
+            "id": "PillarPair \\(2\\)\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": false
+        },
+        {
+            "id": "\\]PillarPair \\(2\\)\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]RotationBaseL\\.\\[\\d*\\](Reflector$|LaserLight)",
+            "lookupMethod": "Regex",
+            "active": false
+        },
+        {
+            "id": "\\]PillarPair \\(2\\)\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]LaserLight",
+            "lookupMethod": "Regex",
+            "active": false
+        },
+        {
+            "id": "\\]PillarPair \\(2\\)\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]RotationBaseL\\.\\[\\d*\\]LaserLH$",
+            "lookupMethod": "Regex",
+            "position": [
+                8.443747686898277,
+                72,
+                355.125
+            ],
+            "rotation": [
+                14.95,
+                235,
+                0
+            ],
+            "scale": [
+                15,
+                0.010101010101010102,
+                15
+            ]
+        },
+        {
+            "id": "PillarPair \\(2\\)\\.\\[\\d*\\]PillarR\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": false
+        },
+        {
+            "id": "\\]PillarPair \\(2\\)\\.\\[\\d*\\]PillarR\\.\\[\\d*\\]RotationBaseR\\.\\[\\d*\\](Reflector$|LaserLight)",
+            "lookupMethod": "Regex",
+            "active": false
+        },
+        {
+            "id": "\\]PillarPair \\(2\\)\\.\\[\\d*\\]PillarR\\.\\[\\d*\\]LaserLight",
+            "lookupMethod": "Regex",
+            "active": false
+        },
+        {
+            "id": "\\]PillarPair \\(2\\)\\.\\[\\d*\\]PillarR\\.\\[\\d*\\]RotationBaseR\\.\\[\\d*\\]LaserRH$",
+            "lookupMethod": "Regex",
+            "position": [
+                2.598076211353316,
+                288,
+                358.5
+            ],
+            "rotation": [
+                4.6,
+                235,
+                0
+            ],
+            "scale": [
+                15,
+                0.010101010101010102,
+                15
+            ]
+        },
+        {
+            "id": "SmallPillarPair \\(2\\)\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": false
+        },
+        {
+            "id": "\\]SmallPillarPair \\(2\\)\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]RotationBaseL\\.\\[\\d*\\](Reflector$|LaserLight)",
+            "lookupMethod": "Regex",
+            "active": false
+        },
+        {
+            "id": "\\]SmallPillarPair \\(2\\)\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]LaserLight",
+            "lookupMethod": "Regex",
+            "active": false
+        },
+        {
+            "id": "\\]SmallPillarPair \\(2\\)\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]RotationBaseL\\.\\[\\d*\\]LaserLH$",
+            "lookupMethod": "Regex",
+            "position": [
+                3.0781812899310195,
+                96,
+                351.5427664129268
+            ],
+            "rotation": [
+                13.799999999999999,
+                275,
+                0
+            ],
+            "scale": [
+                15,
+                0.010101010101010102,
+                15
+            ]
+        },
+        {
+            "id": "\\]SmallPillarPair \\(2\\)\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]LaserL$",
+            "lookupMethod": "Regex",
+            "position": [
+                150.84223562740127,
+                4882.04503832449,
+                -652.7561642988796
+            ],
+            "rotation": [
+                10.020165,
+                145.52834,
+                -3.5309598
+            ],
+            "scale": [
+                6.255523050000001,
+                -3.7935728571428577,
+                12.086508
+            ]
+        },
+        {
+            "id": "SmallPillarPair \\(2\\)\\.\\[\\d*\\]PillarR\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": false
+        },
+        {
+            "id": "\\]SmallPillarPair \\(2\\)\\.\\[\\d*\\]PillarR\\.\\[\\d*\\]RotationBaseR\\.\\[\\d*\\](Reflector$|LaserLight)",
+            "lookupMethod": "Regex",
+            "active": false
+        },
+        {
+            "id": "\\]SmallPillarPair \\(2\\)\\.\\[\\d*\\]PillarR\\.\\[\\d*\\]LaserLight",
+            "lookupMethod": "Regex",
+            "active": false
+        },
+        {
+            "id": "\\]SmallPillarPair \\(2\\)\\.\\[\\d*\\]PillarR\\.\\[\\d*\\]RotationBaseR\\.\\[\\d*\\]LaserRH$",
+            "lookupMethod": "Regex",
+            "position": [
+                0.7695453224827549,
+                312,
+                357.8856916032317
+            ],
+            "rotation": [
+                3.4499999999999997,
+                275,
+                0
+            ],
+            "scale": [
+                15,
+                0.010101010101010102,
+                15
+            ]
+        },
+        {
+            "id": "\\]SmallPillarPair \\(2\\)\\.\\[\\d*\\]PillarR\\.\\[\\d*\\]LaserR$",
+            "lookupMethod": "Regex",
+            "position": [
+                185.41993352660944,
+                4754.877504359045,
+                278.3469286985085
+            ],
+            "rotation": [
+                -0.2187321,
+                145.55719,
+                1.8363336
+            ],
+            "scale": [
+                5.639795700000001,
+                -3.918978,
+                5.40098055
+            ]
+        },
+        {
+            "id": "PillarPair \\(3\\)\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": false
+        },
+        {
+            "id": "\\]PillarPair \\(3\\)\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]RotationBaseL\\.\\[\\d*\\](Reflector$|LaserLight)",
+            "lookupMethod": "Regex",
+            "active": false
+        },
+        {
+            "id": "\\]PillarPair \\(3\\)\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]LaserLight",
+            "lookupMethod": "Regex",
+            "active": false
+        },
+        {
+            "id": "\\]PillarPair \\(3\\)\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]RotationBaseL\\.\\[\\d*\\]LaserLH$",
+            "lookupMethod": "Regex",
+            "position": [
+                -2.821666182436766,
+                120,
+                352.24753587851626
+            ],
+            "rotation": [
+                12.649999999999999,
+                315,
+                0
+            ],
+            "scale": [
+                15,
+                0.010101010101010102,
+                15
+            ]
+        },
+        {
+            "id": "PillarPair \\(3\\)\\.\\[\\d*\\]PillarR\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": false
+        },
+        {
+            "id": "\\]PillarPair \\(3\\)\\.\\[\\d*\\]PillarR\\.\\[\\d*\\]RotationBaseR\\.\\[\\d*\\](Reflector$|LaserLight)",
+            "lookupMethod": "Regex",
+            "active": false
+        },
+        {
+            "id": "\\]PillarPair \\(3\\)\\.\\[\\d*\\]PillarR\\.\\[\\d*\\]LaserLight",
+            "lookupMethod": "Regex",
+            "active": false
+        },
+        {
+            "id": "\\]PillarPair \\(3\\)\\.\\[\\d*\\]PillarR\\.\\[\\d*\\]RotationBaseR\\.\\[\\d*\\]LaserRH$",
+            "lookupMethod": "Regex",
+            "position": [
+                -0.5130302149885029,
+                336,
+                358.5904610688211
+            ],
+            "rotation": [
+                2.3,
+                315,
+                0
+            ],
+            "scale": [
+                15,
+                0.010101010101010102,
+                15
+            ]
+        },
+        {
+            "id": "SmallPillarPair \\(3\\)\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": false
+        },
+        {
+            "id": "\\]SmallPillarPair \\(3\\)\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]RotationBaseL\\.\\[\\d*\\](Reflector$|LaserLight)",
+            "lookupMethod": "Regex",
+            "active": false
+        },
+        {
+            "id": "\\]SmallPillarPair \\(3\\)\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]LaserLight",
+            "lookupMethod": "Regex",
+            "active": false
+        },
+        {
+            "id": "\\]SmallPillarPair \\(3\\)\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]RotationBaseL\\.\\[\\d*\\]LaserLH$",
+            "lookupMethod": "Regex",
+            "position": [
+                -6.495190528383287,
+                144,
+                356.25
+            ],
+            "rotation": [
+                11.5,
+                355,
+                0
+            ],
+            "scale": [
+                15,
+                0.010101010101010102,
+                15
+            ]
+        },
+        {
+            "id": "\\]SmallPillarPair \\(3\\)\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]LaserL$",
+            "lookupMethod": "Regex",
+            "position": [
+                379.36191626130693,
+                4991.6106969096045,
+                -356.2616807845082
+            ],
+            "rotation": [
+                7.9432425,
+                152.82936,
+                0.33491182
+            ],
+            "scale": [
+                21.002110500000004,
+                -3.8500491428571437,
+                37.61329057500001
+            ]
+        },
+        {
+            "id": "SmallPillarPair \\(3\\)\\.\\[\\d*\\]PillarR\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": false
+        },
+        {
+            "id": "\\]SmallPillarPair \\(3\\)\\.\\[\\d*\\]PillarR\\.\\[\\d*\\]RotationBaseR\\.\\[\\d*\\](Reflector$|LaserLight)",
+            "lookupMethod": "Regex",
+            "active": false
+        },
+        {
+            "id": "\\]SmallPillarPair \\(3\\)\\.\\[\\d*\\]PillarR\\.\\[\\d*\\]LaserLight",
+            "lookupMethod": "Regex",
+            "active": false
+        },
+        {
+            "id": "\\]SmallPillarPair \\(3\\)\\.\\[\\d*\\]PillarR\\.\\[\\d*\\]RotationBaseR\\.\\[\\d*\\]LaserRH$",
+            "lookupMethod": "Regex",
+            "position": [
+                -0.6495190528383288,
+                360,
+                359.625
+            ],
+            "rotation": [
+                1.15,
+                355,
+                0
+            ],
+            "scale": [
+                15,
+                0.010101010101010102,
+                15
+            ]
+        },
+        {
+            "id": "\\]SmallPillarPair \\(3\\)\\.\\[\\d*\\]PillarR\\.\\[\\d*\\]LaserR$",
+            "lookupMethod": "Regex",
+            "position": [
+                -132.34729311901938,
+                4603.366836656035,
+                255.80947888313014
+            ],
+            "rotation": [
+                -0.57716244,
+                147.62558,
+                -0.9752136
+            ],
+            "scale": [
+                21.23770425,
+                -3.921454928571429,
+                21.06469785
+            ]
+        },
+        {
+            "id": "PillarPair \\(4\\)\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": false
+        },
+        {
+            "id": "\\]PillarPair \\(4\\)\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]RotationBaseL\\.\\[\\d*\\](Reflector$|LaserLight)",
+            "lookupMethod": "Regex",
+            "active": false
+        },
+        {
+            "id": "\\]PillarPair \\(4\\)\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]LaserLight",
+            "lookupMethod": "Regex",
+            "active": false
+        },
+        {
+            "id": "\\]PillarPair \\(4\\)\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]RotationBaseL\\.\\[\\d*\\]LaserLH$",
+            "lookupMethod": "Regex",
+            "position": [
+                -6.647452332832404,
+                168,
+                361.17212519925175
+            ],
+            "rotation": [
+                10.35,
+                35,
+                0
+            ],
+            "scale": [
+                15,
+                0.010101010101010102,
+                15
+            ]
+        },
+        {
+            "id": "PillarPair \\(4\\)\\.\\[\\d*\\]PillarR\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": false
+        },
+        {
+            "id": "\\]PillarPair \\(4\\)\\.\\[\\d*\\]PillarR\\.\\[\\d*\\]RotationBaseR\\.\\[\\d*\\](Reflector$|LaserLight)",
+            "lookupMethod": "Regex",
+            "active": false
+        },
+        {
+            "id": "\\]PillarPair \\(4\\)\\.\\[\\d*\\]PillarR\\.\\[\\d*\\]LaserLight",
+            "lookupMethod": "Regex",
+            "active": false
+        },
+        {
+            "id": "\\]PillarPair \\(4\\)\\.\\[\\d*\\]PillarR\\.\\[\\d*\\]RotationBaseR\\.\\[\\d*\\]LaserRH$",
+            "lookupMethod": "Regex",
+            "position": [
+                0,
+                384,
+                360
+            ],
+            "rotation": [
+                0,
+                35,
+                0
+            ],
+            "scale": [
+                15,
+                0.010101010101010102,
+                15
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -0.24430199999999996,
+                -62.535636,
+                929.9510159999999
+            ],
+            "rotation": [
+                -12.36756,
+                19.14058,
+                -0.48472
+            ],
+            "scale": [
+                4.81975,
+                0.40359,
+                12.54634
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -2.835606,
+                -73.086828,
+                934.7924399999999
+            ],
+            "rotation": [
+                -5.68667,
+                -14.64466,
+                -30.59262
+            ],
+            "scale": [
+                3.89951,
+                0.23402,
+                6.53523
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                10.734005999999999,
+                -74.904132,
+                950.4917759999998
+            ],
+            "rotation": [
+                40.28306,
+                -76.66168,
+                -81.91166
+            ],
+            "scale": [
+                3.89951,
+                0.23402,
+                6.53523
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                30.58701,
+                -43.546974,
+                937.1714339999999
+            ],
+            "rotation": [
+                -29.07956,
+                -40.4663,
+                -0.98841
+            ],
+            "scale": [
+                3.89951,
+                0.23402,
+                6.53523
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -29.453622,
+                -80.73432,
+                925.7806199999999
+            ],
+            "rotation": [
+                26.76193,
+                9.10375,
+                105.10795
+            ],
+            "scale": [
+                19.77859,
+                0.51891,
+                15.32934
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                19.714536,
+                -31.755534,
+                924.515646
+            ],
+            "rotation": [
+                -23.16737,
+                -26.16555,
+                0.50561
+            ],
+            "scale": [
+                10.71843,
+                0.64325,
+                17.96313
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -4.208328,
+                -35.135748,
+                903.076824
+            ],
+            "rotation": [
+                -21.07641,
+                -36.94287,
+                -4.2619
+            ],
+            "scale": [
+                20.64838,
+                0.66075,
+                20.64839
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -15.760854,
+                -44.877708000000005,
+                907.1573099999999
+            ],
+            "rotation": [
+                2.06352,
+                -60.41522,
+                38.18451
+            ],
+            "scale": [
+                15.26824,
+                0.49438,
+                10.3073
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                6.721602,
+                -39.051216,
+                908.893794
+            ],
+            "rotation": [
+                -21.18903,
+                -54.0476,
+                14.96196
+            ],
+            "scale": [
+                20.64838,
+                0.66075,
+                20.64839
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -2854.9319939999996,
+                -251.097252,
+                2517.6996
+            ],
+            "rotation": [
+                -3.91926,
+                -153.57567,
+                72.85945
+            ],
+            "scale": [
+                -63.35495,
+                0.41275,
+                8.82923
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -2731.06077,
+                -399.39128999999997,
+                2545.071774
+            ],
+            "rotation": [
+                -13.50947,
+                -168.06784,
+                79.46087
+            ],
+            "scale": [
+                -63.35495,
+                0.41275,
+                8.82923
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -3019.80105,
+                -430.930896,
+                2875.861404
+            ],
+            "rotation": [
+                0.27692,
+                174.92792,
+                91.42819
+            ],
+            "scale": [
+                -148.10028,
+                0.96485,
+                20.63944
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -2963.2969919999996,
+                -435.25689600000004,
+                2395.92606
+            ],
+            "rotation": [
+                9.46782,
+                166.02565,
+                88.05027
+            ],
+            "scale": [
+                -140.92687,
+                0.91811,
+                19.63974
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -2862.082272,
+                -484.4806679999999,
+                2330.843712
+            ],
+            "rotation": [
+                -0.79884,
+                -179.8733,
+                86.71766
+            ],
+            "scale": [
+                -94.6564,
+                0.61667,
+                13.19143
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -2681.540784,
+                -307.196784,
+                2620.94859
+            ],
+            "rotation": [
+                -3.18862,
+                -177.54597,
+                75.47
+            ],
+            "scale": [
+                -119.05277,
+                1.3357,
+                41.81194
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -2493.639936,
+                -264.658464,
+                2516.99235
+            ],
+            "rotation": [
+                5.04318,
+                177.89345,
+                87.73176
+            ],
+            "scale": [
+                -144.33023,
+                0.94029,
+                20.11404
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -3720.08094,
+                -223.011312,
+                1808.798346
+            ],
+            "rotation": [
+                -3.91926,
+                -172.13435,
+                72.85945
+            ],
+            "scale": [
+                -63.35495,
+                0.41275,
+                8.82923
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -3611.3626440000003,
+                -371.30535000000003,
+                1874.172156
+            ],
+            "rotation": [
+                -13.50947,
+                173.3735,
+                79.46088
+            ],
+            "scale": [
+                -63.35495,
+                0.41275,
+                8.82923
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -3750.245256,
+                -379.573998,
+                1631.1899760000001
+            ],
+            "rotation": [
+                0.9492,
+                156.79889,
+                75.11594
+            ],
+            "scale": [
+                -148.10027,
+                0.96485,
+                20.63944
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -3990.3705359999994,
+                -402.845016,
+                2095.860972
+            ],
+            "rotation": [
+                0.27692,
+                156.36919,
+                91.42819
+            ],
+            "scale": [
+                -148.10028,
+                0.96485,
+                20.63945
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -3618.0136559999996,
+                -351.29913,
+                1751.611464
+            ],
+            "rotation": [
+                6.26262,
+                158.54576,
+                73.7609
+            ],
+            "scale": [
+                -94.65639,
+                0.61667,
+                13.19143
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -3341.17839,
+                -329.33651399999997,
+                2386.210224
+            ],
+            "rotation": [
+                -0.79884,
+                161.56793,
+                86.71767
+            ],
+            "scale": [
+                -94.6564,
+                0.61667,
+                13.19143
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -3554.266248,
+                -235.087224,
+                2004.6728099999998
+            ],
+            "rotation": [
+                -3.12259,
+                -164.63893,
+                100.27875
+            ],
+            "scale": [
+                -119.05276,
+                1.3357,
+                41.81195
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -3184.5401819999997,
+                -122.402346,
+                2168.823504
+            ],
+            "rotation": [
+                1.71238,
+                175.73924,
+                100.72871
+            ],
+            "scale": [
+                -144.33023,
+                0.94029,
+                20.11404
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -806.080866,
+                -941.261772,
+                3327.183372
+            ],
+            "rotation": [
+                2.05231,
+                165.72472,
+                101.68342
+            ],
+            "scale": [
+                -119.05277,
+                1.3357,
+                41.81195
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -710.7074819999999,
+                -864.698184,
+                3290.948442
+            ],
+            "rotation": [
+                5.04318,
+                159.33475,
+                87.73176
+            ],
+            "scale": [
+                -144.33023,
+                0.94029,
+                20.11404
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -484.07267399999995,
+                -859.641402,
+                3538.889304
+            ],
+            "rotation": [
+                -1.12381,
+                155.69008,
+                88.98494
+            ],
+            "scale": [
+                -144.3302,
+                0.94029,
+                20.11404
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -575.4476699999999,
+                -869.605062,
+                3404.1694799999996
+            ],
+            "rotation": [
+                9.84138,
+                162.23181,
+                86.64238
+            ],
+            "scale": [
+                -92.24682,
+                0.60097,
+                12.85563
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -381.55594799999994,
+                -958.893528,
+                3604.1621579999996
+            ],
+            "rotation": [
+                2.2854,
+                163.60938,
+                99.60062
+            ],
+            "scale": [
+                -77.58633,
+                0.50546,
+                10.81253
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -205.949634,
+                -783.598572,
+                4139.622732
+            ],
+            "rotation": [
+                -3.91924,
+                -124.79324,
+                72.85945
+            ],
+            "scale": [
+                -63.35495,
+                0.41275,
+                8.82922
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -84.202344,
+                -931.89255,
+                4103.969765999999
+            ],
+            "rotation": [
+                -13.50948,
+                -139.28543,
+                79.46088
+            ],
+            "scale": [
+                -63.35495,
+                0.41275,
+                8.82922
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -357.003402,
+                -940.1614379999999,
+                4041.452238
+            ],
+            "rotation": [
+                0.9492,
+                -155.85977,
+                75.11594
+            ],
+            "scale": [
+                -148.10027,
+                0.96485,
+                20.63944
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                200.348178,
+                -952.5926339999999,
+                4186.4706719999995
+            ],
+            "rotation": [
+                -5.85945,
+                -158.08359,
+                76.58944
+            ],
+            "scale": [
+                -85.78791,
+                0.55889,
+                11.95551
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -178.840722,
+                -911.886216,
+                4025.8100459999996
+            ],
+            "rotation": [
+                6.26262,
+                -154.11292,
+                73.76091
+            ],
+            "scale": [
+                -94.65639,
+                0.61667,
+                13.19143
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                294.198282,
+                -928.993908,
+                4124.574672
+            ],
+            "rotation": [
+                -0.79884,
+                -151.09068,
+                86.71766
+            ],
+            "scale": [
+                -94.6564,
+                0.61667,
+                13.19143
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                601.560876,
+                -771.6434399999999,
+                3482.561322
+            ],
+            "rotation": [
+                -1.37025,
+                -148.59349,
+                86.45248
+            ],
+            "scale": [
+                -90.93532,
+                1.02024,
+                31.93694
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                794.256858,
+                -797.159778,
+                3222.849414
+            ],
+            "rotation": [
+                5.04318,
+                -153.324,
+                87.73175
+            ],
+            "scale": [
+                -144.33023,
+                0.94029,
+                20.11404
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                1130.167524,
+                -792.103002,
+                3224.1939780000002
+            ],
+            "rotation": [
+                -1.1238,
+                -156.96869,
+                88.98494
+            ],
+            "scale": [
+                -144.3302,
+                0.94029,
+                20.11404
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                969.1757399999999,
+                -802.066662,
+                3200.101824
+            ],
+            "rotation": [
+                9.84138,
+                -150.42696,
+                86.64238
+            ],
+            "scale": [
+                -92.24682,
+                0.60097,
+                12.85563
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                1819.776084,
+                -319.899066,
+                2608.641918
+            ],
+            "rotation": [
+                -3.91924,
+                -125.55666,
+                72.85944
+            ],
+            "scale": [
+                -63.35495,
+                0.41275,
+                8.82923
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                2092.148124,
+                -457.88415000000003,
+                2479.815768
+            ],
+            "rotation": [
+                -13.50947,
+                -140.04887,
+                79.46087
+            ],
+            "scale": [
+                -63.35495,
+                0.41275,
+                8.82923
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                1660.88835,
+                -489.475392,
+                2513.1423659999996
+            ],
+            "rotation": [
+                -4.8997,
+                -157.09575,
+                88.73939
+            ],
+            "scale": [
+                -115.17133,
+                0.75032,
+                16.05042
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                2313.38355,
+                -422.535834,
+                2554.5474839999997
+            ],
+            "rotation": [
+                -5.85945,
+                -158.84705,
+                76.58945
+            ],
+            "scale": [
+                -148.10029,
+                0.96485,
+                20.63944
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                1848.3991319999998,
+                -448.186884,
+                2495.2013159999997
+            ],
+            "rotation": [
+                6.26262,
+                -154.87643,
+                73.76089
+            ],
+            "scale": [
+                -94.65639,
+                0.61667,
+                13.19143
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                2470.240524,
+                -454.98526799999996,
+                2505.46089
+            ],
+            "rotation": [
+                -0.79884,
+                -151.85417,
+                86.71766
+            ],
+            "scale": [
+                -94.6564,
+                0.61667,
+                13.19143
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                2771.640984,
+                -255.56822999999997,
+                1859.554002
+            ],
+            "rotation": [
+                -1.37025,
+                -149.35693,
+                86.45248
+            ],
+            "scale": [
+                -119.0528,
+                1.3357,
+                41.81195
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                2874.778728,
+                -346.468818,
+                1615.67385
+            ],
+            "rotation": [
+                -1.35169,
+                -152.06473,
+                102.70846
+            ],
+            "scale": [
+                -144.33023,
+                0.94029,
+                20.11404
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                3318.133488,
+                -318.094542,
+                1616.299656
+            ],
+            "rotation": [
+                -1.1238,
+                -157.73224,
+                88.98494
+            ],
+            "scale": [
+                -144.3302,
+                0.94029,
+                20.11404
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                3157.4765939999997,
+                -328.05850200000003,
+                1590.0639959999999
+            ],
+            "rotation": [
+                9.84139,
+                -151.19044,
+                86.64238
+            ],
+            "scale": [
+                -92.24682,
+                0.60097,
+                12.85563
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                3461.279916,
+                -382.33257,
+                1571.1533579999998
+            ],
+            "rotation": [
+                2.28539,
+                -149.81288,
+                99.60061
+            ],
+            "scale": [
+                -92.24681,
+                0.60097,
+                12.85563
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -2020.5401399999998,
+                -267.559632,
+                3242.31114
+            ],
+            "rotation": [
+                -3.91924,
+                -172.13435,
+                72.85945
+            ],
+            "scale": [
+                -63.35495,
+                0.41275,
+                8.82923
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -1911.821856,
+                -415.85367,
+                3307.6849799999995
+            ],
+            "rotation": [
+                -13.50948,
+                173.37344,
+                79.46087
+            ],
+            "scale": [
+                -63.35495,
+                0.41275,
+                8.82922
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -2050.704456,
+                -424.12225800000004,
+                3064.7027759999996
+            ],
+            "rotation": [
+                0.9492,
+                156.79889,
+                75.11594
+            ],
+            "scale": [
+                -148.10027,
+                0.96485,
+                20.63944
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -2290.8297239999997,
+                -447.393348,
+                3529.3743299999996
+            ],
+            "rotation": [
+                0.27692,
+                156.36923,
+                91.4282
+            ],
+            "scale": [
+                -148.10028,
+                0.96485,
+                20.63944
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -1918.4728559999999,
+                -395.84745000000004,
+                3185.1242639999996
+            ],
+            "rotation": [
+                6.26262,
+                158.54576,
+                73.7609
+            ],
+            "scale": [
+                -94.65639,
+                0.61667,
+                13.19143
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -1670.5587719999999,
+                -412.95478799999995,
+                3599.924376
+            ],
+            "rotation": [
+                -0.79884,
+                161.56801,
+                86.71766
+            ],
+            "scale": [
+                -94.6564,
+                0.61667,
+                13.19143
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -1889.0268179999998,
+                -323.65923,
+                3395.3775419999997
+            ],
+            "rotation": [
+                -3.1886,
+                163.89532,
+                75.47
+            ],
+            "scale": [
+                -119.05277,
+                1.3357,
+                41.81194
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -1677.810882,
+                -281.120844,
+                3356.631642
+            ],
+            "rotation": [
+                5.04318,
+                159.33475,
+                87.73176
+            ],
+            "scale": [
+                -144.33023,
+                0.94029,
+                20.11404
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -441.93821399999996,
+                -276.064122,
+                3604.5725039999998
+            ],
+            "rotation": [
+                -1.12381,
+                155.69008,
+                88.98494
+            ],
+            "scale": [
+                -144.3302,
+                0.94029,
+                20.11404
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -533.31351,
+                -286.028082,
+                3469.85268
+            ],
+            "rotation": [
+                9.84138,
+                162.23181,
+                86.64238
+            ],
+            "scale": [
+                -92.24682,
+                0.60097,
+                12.85563
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -310.753314,
+                -340.30209,
+                3677.508828
+            ],
+            "rotation": [
+                2.28539,
+                163.60938,
+                99.60061
+            ],
+            "scale": [
+                -92.24681,
+                0.60097,
+                12.85563
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -163.815114,
+                -200.021352,
+                4205.305332
+            ],
+            "rotation": [
+                -3.91924,
+                -124.79324,
+                72.85945
+            ],
+            "scale": [
+                -63.35495,
+                0.41275,
+                8.82922
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -42.067884,
+                -348.31539000000004,
+                4169.652966
+            ],
+            "rotation": [
+                -13.50948,
+                -139.28543,
+                79.46088
+            ],
+            "scale": [
+                -63.35495,
+                0.41275,
+                8.82922
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -314.868882,
+                -356.584038,
+                4107.135438
+            ],
+            "rotation": [
+                0.9492,
+                -155.85977,
+                75.11594
+            ],
+            "scale": [
+                -148.10027,
+                0.96485,
+                20.63944
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                180.14395199999998,
+                -312.967128,
+                4241.430036
+            ],
+            "rotation": [
+                -5.85945,
+                -158.08357,
+                76.58944
+            ],
+            "scale": [
+                -148.10029,
+                0.96485,
+                20.63944
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -136.706262,
+                -328.309176,
+                4091.493246
+            ],
+            "rotation": [
+                6.26262,
+                -154.11292,
+                73.76091
+            ],
+            "scale": [
+                -94.65639,
+                0.61667,
+                13.19143
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                336.332742,
+                -345.41650799999996,
+                4190.257871999999
+            ],
+            "rotation": [
+                -0.79884,
+                -151.09068,
+                86.71766
+            ],
+            "scale": [
+                -94.6564,
+                0.61667,
+                13.19143
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                230.544312,
+                -145.999416,
+                3540.391998
+            ],
+            "rotation": [
+                -1.37025,
+                -148.59349,
+                86.45248
+            ],
+            "scale": [
+                -119.0528,
+                1.3357,
+                41.81195
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                836.391258,
+                -213.582618,
+                3288.5326139999997
+            ],
+            "rotation": [
+                5.04318,
+                -153.324,
+                87.73175
+            ],
+            "scale": [
+                -144.33023,
+                0.94029,
+                20.11404
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                1172.3019239999999,
+                -208.52578200000002,
+                3289.877178
+            ],
+            "rotation": [
+                -1.1238,
+                -156.96869,
+                88.98494
+            ],
+            "scale": [
+                -144.3302,
+                0.94029,
+                20.11404
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                1011.31014,
+                -218.489802,
+                3265.7850240000002
+            ],
+            "rotation": [
+                9.84138,
+                -150.42696,
+                86.64238
+            ],
+            "scale": [
+                -92.24682,
+                0.60097,
+                12.85563
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                1314.8344140000002,
+                -272.76381,
+                3242.8278239999995
+            ],
+            "rotation": [
+                2.28539,
+                -149.0494,
+                99.60061
+            ],
+            "scale": [
+                -92.24681,
+                0.60097,
+                12.85563
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                1561.4728085964118,
+                198.58126361551135,
+                -953.7424378236321
+            ],
+            "rotation": [
+                -58.393333,
+                -92.317116,
+                45.49124
+            ],
+            "scale": [
+                -106.51692750000002,
+                2.7088166400000007,
+                23.946927
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                1200.3515645170874,
+                30.80039873312611,
+                -1306.0261987028891
+            ],
+            "rotation": [
+                -65.233765,
+                -54.7742,
+                -3.2616541
+            ],
+            "scale": [
+                -106.51692000000001,
+                2.7088163040000004,
+                23.946924000000003
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                1225.4351049693819,
+                84.9333359765691,
+                -1057.9103717249927
+            ],
+            "rotation": [
+                -68.372475,
+                -75.22125,
+                19.073122
+            ],
+            "scale": [
+                -106.51690950000003,
+                2.7088163040000004,
+                23.946922500000003
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                1203.4306666067212,
+                142.08288429448726,
+                -820.9145464799184
+            ],
+            "rotation": [
+                -55.658978,
+                -61.927704,
+                26.129133
+            ],
+            "scale": [
+                -106.51692000000001,
+                2.7088166400000007,
+                23.946924000000003
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                981.0685261705135,
+                25.940489524377078,
+                -510.95634449092006
+            ],
+            "rotation": [
+                -71.093506,
+                -87.32114,
+                54.866848
+            ],
+            "scale": [
+                -106.51692000000001,
+                2.7088161600000005,
+                23.946924000000003
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                1585.0401271389537,
+                336.08595781917455,
+                -733.0299858913709
+            ],
+            "rotation": [
+                -55.926826,
+                -106.41105,
+                62.38366
+            ],
+            "scale": [
+                -106.51692000000001,
+                2.7088161600000005,
+                23.946922500000003
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                1218.6196737587588,
+                177.1945030397305,
+                -671.0127859860178
+            ],
+            "rotation": [
+                -58.51195,
+                -88.622055,
+                57.967766
+            ],
+            "scale": [
+                -106.51692000000001,
+                2.7088163040000004,
+                23.946924000000003
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                1251.5746289816323,
+                150.26880969235395,
+                -313.7480581187709
+            ],
+            "rotation": [
+                -69.49157,
+                -68.959,
+                17.87715
+            ],
+            "scale": [
+                -106.51692000000001,
+                2.7088163040000004,
+                23.946924000000003
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                2549.839675158532,
+                525.4097505715804,
+                219.49034524262407
+            ],
+            "rotation": [
+                -76.10277,
+                -76.555664,
+                59.990253
+            ],
+            "scale": [
+                -166.97233500000002,
+                4.134293760000001,
+                27.480024000000004
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                1675.9730585584791,
+                35.168282200543814,
+                561.0771369579699
+            ],
+            "rotation": [
+                -58.463623,
+                -72.814964,
+                77.7306
+            ],
+            "scale": [
+                -189.33369000000002,
+                3.1514545920000008,
+                24.838057500000005
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                1791.404142220914,
+                23.665904292653384,
+                842.2000646061805
+            ],
+            "rotation": [
+                -70.99865,
+                -103.31738,
+                92.47115
+            ],
+            "scale": [
+                -177.66706500000004,
+                3.5138822400000005,
+                30.019203000000005
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                2383.0180402097517,
+                499.6054564238212,
+                457.59711023619053
+            ],
+            "rotation": [
+                -67.715576,
+                -59.676003,
+                42.655247
+            ],
+            "scale": [
+                -166.97233500000002,
+                4.134292992000001,
+                27.480019500000004
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                2182.6884257508914,
+                394.7265812337535,
+                577.0003696234554
+            ],
+            "rotation": [
+                -64.75882,
+                -55.774208,
+                38.509575
+            ],
+            "scale": [
+                -166.62024000000002,
+                4.199706432000001,
+                26.530371000000002
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                2118.9998069476105,
+                268.52050387508115,
+                945.0815407343304
+            ],
+            "rotation": [
+                -68.44243,
+                -70.424065,
+                -155.11017
+            ],
+            "scale": [
+                95.93646000000003,
+                -3.6280723200000002,
+                21.278028000000003
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                2410.1084557516597,
+                484.74726962656393,
+                799.9982839079728
+            ],
+            "rotation": [
+                -65.520454,
+                -69.579,
+                -157.10004
+            ],
+            "scale": [
+                94.81674000000001,
+                -3.6584491200000007,
+                20.493106500000003
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                1848.7905391879958,
+                46.687203142976905,
+                1249.9646119188826
+            ],
+            "rotation": [
+                -61.1034,
+                -72.074,
+                -135.86308
+            ],
+            "scale": [
+                132.42337500000002,
+                -4.488467280000001,
+                31.824286500000007
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                2141.991936404412,
+                230.76288198235676,
+                1080.9318766059782
+            ],
+            "rotation": [
+                -73.485275,
+                -68.86544,
+                -152.20729
+            ],
+            "scale": [
+                130.31227500000003,
+                -4.6183507200000005,
+                29.665447500000006
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                2402.159491816688,
+                380.16760232577445,
+                935.7544867486922
+            ],
+            "rotation": [
+                -75.896515,
+                -70.76918,
+                -149.35588
+            ],
+            "scale": [
+                131.32968000000002,
+                -4.563306432000001,
+                30.646543500000007
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                1647.0302615998332,
+                343.6274462011039,
+                -153.87102019338528
+            ],
+            "rotation": [
+                -46.175877,
+                -88.824005,
+                -132.29536
+            ],
+            "scale": [
+                -154.51611000000005,
+                4.387370880000001,
+                27.896406000000006
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                1224.9541747942774,
+                136.6608755104385,
+                -136.80836079118058
+            ],
+            "rotation": [
+                -58.348583,
+                -64.73117,
+                9.193517
+            ],
+            "scale": [
+                143.54966100000001,
+                -4.6700959200000005,
+                24.518332500000003
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                842.4740400424677,
+                -43.53781753280847,
+                502.3296794627895
+            ],
+            "rotation": [
+                -64.332344,
+                -53.28829,
+                -7.3843064
+            ],
+            "scale": [
+                -81.67477500000003,
+                2.077059072,
+                18.361962000000002
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                502.5700324122503,
+                -6.281257919221733,
+                252.7387206677682
+            ],
+            "rotation": [
+                -68.14523,
+                -58.99428,
+                -8.55861
+            ],
+            "scale": [
+                -81.67477500000003,
+                2.077058784,
+                18.361962000000002
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                2008.157833457291,
+                695.6399572103109,
+                -60.51820776204163
+            ],
+            "rotation": [
+                -40.45682,
+                -66.01238,
+                -8.056092
+            ],
+            "scale": [
+                -106.51692750000002,
+                2.7088156800000003,
+                23.946924000000003
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                769.1018160872226,
+                -8.5851809741376,
+                -56.50290484037349
+            ],
+            "rotation": [
+                -84.003204,
+                -138.49098,
+                112.62419
+            ],
+            "scale": [
+                -106.51692000000001,
+                2.7088166400000007,
+                23.946922500000003
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                1229.7083679925604,
+                174.36867683442145,
+                -172.4606139126986
+            ],
+            "rotation": [
+                -69.49158,
+                -55.679005,
+                17.877182
+            ],
+            "scale": [
+                -106.51690500000002,
+                2.7088163040000004,
+                23.946924000000003
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                980.6270416376495,
+                86.52716183660691,
+                -135.59374307674284
+            ],
+            "rotation": [
+                -67.13754,
+                -53.797287,
+                15.746667
+            ],
+            "scale": [
+                -106.51692000000001,
+                2.7088171200000004,
+                23.946927
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                632.6400216838583,
+                16.724427433268062,
+                191.19887806470103
+            ],
+            "rotation": [
+                -80.96405,
+                -38.93066,
+                -18.414927
+            ],
+            "scale": [
+                -81.67476,
+                2.077059216,
+                18.361957500000003
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                945.6452712599314,
+                80.10545161687355,
+                155.59846414539734
+            ],
+            "rotation": [
+                -79.33756,
+                -55.829105,
+                -6.1014056
+            ],
+            "scale": [
+                -81.674745,
+                2.077059072,
+                18.361962000000002
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                1159.7268323099238,
+                153.99304365924823,
+                126.62409165784277
+            ],
+            "rotation": [
+                -69.041214,
+                -68.33348,
+                0.86797
+            ],
+            "scale": [
+                -81.674745,
+                2.077059216,
+                18.361960500000002
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                935.8191951200391,
+                8.824082633886867,
+                379.38460892315726
+            ],
+            "rotation": [
+                -76.15386,
+                -77.28333,
+                19.179577
+            ],
+            "scale": [
+                -106.51690500000002,
+                2.7088163040000004,
+                23.946924000000003
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                1131.1669132600387,
+                80.5622887030441,
+                255.1523250428644
+            ],
+            "rotation": [
+                -84.3518,
+                -14.073407,
+                -42.081966
+            ],
+            "scale": [
+                -106.51692000000001,
+                2.7088166400000007,
+                23.946924000000003
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                1341.03429567882,
+                143.4212468077906,
+                222.0126579966732
+            ],
+            "rotation": [
+                -77.744415,
+                -99.94728,
+                40.71151
+            ],
+            "scale": [
+                -106.51692000000001,
+                2.7088163040000004,
+                23.946927
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                1482.2588456212766,
+                227.99770353295972,
+                262.3643784231228
+            ],
+            "rotation": [
+                -58.322906,
+                -59.680386,
+                5.3613095
+            ],
+            "scale": [
+                -106.51692000000001,
+                2.7088166400000007,
+                23.946924000000003
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                1389.9763933072625,
+                282.1990277120842,
+                -73.56415361389284
+            ],
+            "rotation": [
+                -71.466385,
+                -59.64545,
+                12.462454
+            ],
+            "scale": [
+                -106.51692000000001,
+                2.7088168800000005,
+                23.946927
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                1735.1952709660197,
+                253.76821339370767,
+                348.5278390015087
+            ],
+            "rotation": [
+                -45.735275,
+                -55.153847,
+                9.821858
+            ],
+            "scale": [
+                -106.51692000000001,
+                2.7088166400000007,
+                23.946927
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                1936.9698712088411,
+                426.7504693617222,
+                298.0725587271572
+            ],
+            "rotation": [
+                -47.308353,
+                -47.480103,
+                -8.562796
+            ],
+            "scale": [
+                -106.51690950000003,
+                2.7088161600000005,
+                23.946922500000003
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                1583.3726456212764,
+                429.65031153295973,
+                -52.620973776877214
+            ],
+            "rotation": [
+                -58.322906,
+                -59.680386,
+                5.3613095
+            ],
+            "scale": [
+                -106.51692000000001,
+                2.7088166400000007,
+                23.946924000000003
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                1822.3007038280646,
+                552.6729174482911,
+                -83.60079017719988
+            ],
+            "rotation": [
+                -59.321617,
+                -49.207718,
+                -16.417603
+            ],
+            "scale": [
+                -106.51690950000003,
+                2.7088161600000005,
+                23.946922500000003
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                1002.9874895227144,
+                -35.110339114339276,
+                2406.621861089418
+            ],
+            "rotation": [
+                -79.1401,
+                169.33165,
+                101.10368
+            ],
+            "scale": [
+                -157.69953000000004,
+                4.1530843200000005,
+                32.5464975
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -405.882522134189,
+                27.865198296315413,
+                825.4468330916914
+            ],
+            "rotation": [
+                -7.937616,
+                -27.285408,
+                0.03586649
+            ],
+            "scale": [
+                20.648394,
+                0.6607485120000001,
+                20.648397000000003
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                468.74631204871935,
+                30.198118744301176,
+                885.4177945133184
+            ],
+            "rotation": [
+                -4.96427,
+                -74.11081,
+                0.57528335
+            ],
+            "scale": [
+                20.648385000000005,
+                0.6607487040000001,
+                20.648385000000005
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                3606.1098043212046,
+                372.64166970691537,
+                3475.0319973105343
+            ],
+            "rotation": [
+                -77.27072,
+                -117.148285,
+                -55.587685
+            ],
+            "scale": [
+                -248.39736000000008,
+                4.134567360000001,
+                32.58642450000001
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                3539.2709833206673,
+                270.6055090698794,
+                3097.202170393117
+            ],
+            "rotation": [
+                -57.679817,
+                -103.37075,
+                -84.626366
+            ],
+            "scale": [
+                -233.09127000000004,
+                4.610056032000001,
+                39.383853
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                2541.051634485201,
+                180.61792172996266,
+                3589.5415323907214
+            ],
+            "rotation": [
+                -51.76209,
+                -128.13431,
+                -72.999306
+            ],
+            "scale": [
+                -219.06022500000003,
+                5.424008160000001,
+                36.05256000000001
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                2822.132821439437,
+                260.1782240786477,
+                3424.5777575883553
+            ],
+            "rotation": [
+                -51.39771,
+                -133.49,
+                -69.37528
+            ],
+            "scale": [
+                -218.59827000000004,
+                5.509826400000001,
+                34.80666
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                3718.63445057005,
+                247.29298568520306,
+                2702.264397977761
+            ],
+            "rotation": [
+                -49.740627,
+                -111.74821,
+                69.84837
+            ],
+            "scale": [
+                129.66002250000003,
+                -4.589179392000001,
+                31.357416000000004
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                3022.57761605159,
+                120.07817204737142,
+                2968.739209125762
+            ],
+            "rotation": [
+                -54.755505,
+                -123.51453,
+                75.556015
+            ],
+            "scale": [
+                125.86435500000002,
+                -4.759868160000001,
+                27.915820500000002
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                2551.8021664358107,
+                49.12898524058826,
+                3158.2262412065957
+            ],
+            "rotation": [
+                -56.2556,
+                -127.98199,
+                78.0271
+            ],
+            "scale": [
+                124.39530000000002,
+                -4.799722272,
+                26.886042000000003
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                3490.0539597332067,
+                122.59699356411346,
+                2579.0875897682367
+            ],
+            "rotation": [
+                -59.633743,
+                -133.75119,
+                101.92603
+            ],
+            "scale": [
+                173.73354,
+                -5.888669760000001,
+                41.752038000000006
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                3048.3744701024357,
+                29.68369159165482,
+                2806.5890635162204
+            ],
+            "rotation": [
+                -51.065636,
+                -117.74595,
+                75.32835
+            ],
+            "scale": [
+                170.963925,
+                -6.059070720000001,
+                38.91974100000001
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                2670.6676947456294,
+                -65.48913786799194,
+                3005.2918804789815
+            ],
+            "rotation": [
+                -49.729065,
+                -114.50052,
+                73.84221
+            ],
+            "scale": [
+                172.29867000000002,
+                -5.986853760000001,
+                40.206894
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                2247.5861062243016,
+                -163.58281933803696,
+                3221.767535998009
+            ],
+            "rotation": [
+                -58.269543,
+                -105.51962,
+                -111.538155
+            ],
+            "scale": [
+                -186.801375,
+                5.8883328000000015,
+                38.78466750000001
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                2065.6607315717556,
+                92.71378940027888,
+                3623.384451183729
+            ],
+            "rotation": [
+                -52.943886,
+                -124.75639,
+                -84.82825
+            ],
+            "scale": [
+                -202.71822000000003,
+                5.756034240000001,
+                36.5988375
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                1466.329364695043,
+                8.019489241100793,
+                3743.7642444976395
+            ],
+            "rotation": [
+                -71.67581,
+                -131.1248,
+                81.642
+            ],
+            "scale": [
+                188.33077500000002,
+                -6.126957600000001,
+                32.166957000000004
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -466.7374896808808,
+                193.30125096855673,
+                748.0878354655575
+            ],
+            "rotation": [
+                -0.10515764,
+                -87.26405,
+                -21.625937
+            ],
+            "scale": [
+                20.648385000000005,
+                2.3356942560000005,
+                20.648397000000003
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                535.2234782632181,
+                234.42986421516724,
+                912.3802558279011
+            ],
+            "rotation": [
+                7.901731,
+                -58.582947,
+                -25.751558
+            ],
+            "scale": [
+                20.648385000000005,
+                2.4737830080000003,
+                20.648386500000004
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                542.0214358280525,
+                183.8599610670511,
+                867.9614298235189
+            ],
+            "rotation": [
+                10.606526,
+                -60.816273,
+                -24.751375
+            ],
+            "scale": [
+                20.648385000000005,
+                2.4737830080000003,
+                20.648386500000004
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                989.3018812521678,
+                307.1480404749377,
+                4576.695450454158
+            ],
+            "rotation": [
+                -77.4665,
+                -152.88972,
+                96.151
+            ],
+            "scale": [
+                -107.153625,
+                2.7250089600000003,
+                24.090067500000004
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                544.1078454806244,
+                313.2440339216732,
+                4244.67148641433
+            ],
+            "rotation": [
+                -74.1454,
+                -165.0623,
+                101.55933
+            ],
+            "scale": [
+                -107.15363100000002,
+                2.72500944,
+                24.090069000000003
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                796.9526244599119,
+                -24.682013236918724,
+                2429.538165571655
+            ],
+            "rotation": [
+                -78.28091,
+                131.25177,
+                138.09642
+            ],
+            "scale": [
+                -92.58870000000002,
+                2.4592582080000005,
+                19.1319489
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -3016.5865090986213,
+                -105.82872544627931,
+                483.3262251624946
+            ],
+            "rotation": [
+                -71.36559,
+                144.51239,
+                158.85863
+            ],
+            "scale": [
+                -202.47928500000003,
+                4.177083696000001,
+                31.784949000000005
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -3632.4895860576557,
+                -122.92115404916065,
+                -96.49471042662147
+            ],
+            "rotation": [
+                -69.13524,
+                138.53972,
+                174.88628
+            ],
+            "scale": [
+                -200.04684000000003,
+                4.040832480000001,
+                32.252967000000005
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -3373.9246974224557,
+                -49.08733093053242,
+                300.4960410325701
+            ],
+            "rotation": [
+                -67.89135,
+                -175.93439,
+                142.85165
+            ],
+            "scale": [
+                -187.09300500000003,
+                3.7693262400000007,
+                32.2259955
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -2505.9086732691876,
+                -35.480139998818004,
+                626.9224227996882
+            ],
+            "rotation": [
+                -66.90237,
+                161.40231,
+                125.19224
+            ],
+            "scale": [
+                -186.63640500000002,
+                4.142189040000001,
+                31.296631500000004
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -1808.2002131375777,
+                -90.64205436332773,
+                868.7022427711305
+            ],
+            "rotation": [
+                -54.05073,
+                119.61259,
+                155.58925
+            ],
+            "scale": [
+                -115.27123500000003,
+                3.0040032,
+                24.359674500000004
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -898.6963603471137,
+                -130.7436300565923,
+                1251.3281251250044
+            ],
+            "rotation": [
+                -61.461876,
+                147.85631,
+                176.92986
+            ],
+            "scale": [
+                -189.54264000000003,
+                3.7660411200000006,
+                31.88037600000001
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -1371.8358722194125,
+                5.378405651230173,
+                1067.085654415453
+            ],
+            "rotation": [
+                -63.040264,
+                148.19598,
+                -178.38249
+            ],
+            "scale": [
+                -184.30791000000002,
+                3.6348641760000007,
+                31.813822500000008
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -1622.8104467131488,
+                60.94421915143312,
+                1197.2576163776346
+            ],
+            "rotation": [
+                -56.750923,
+                140.59305,
+                132.78833
+            ],
+            "scale": [
+                -167.23122000000004,
+                4.31113296,
+                32.888223
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -2338.0565706104735,
+                82.65324905034417,
+                841.3329967975874
+            ],
+            "rotation": [
+                -58.52357,
+                160.47789,
+                133.32222
+            ],
+            "scale": [
+                -195.785625,
+                4.240329120000001,
+                31.213350000000005
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -1838.4833076089783,
+                -116.25148825742262,
+                651.8238709963568
+            ],
+            "rotation": [
+                -69.85668,
+                108.28188,
+                -42.568893
+            ],
+            "scale": [
+                137.53157100000004,
+                -4.640691360000001,
+                34.504852500000005
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -2021.0152207644046,
+                61.54723279537049,
+                847.3572507584855
+            ],
+            "rotation": [
+                -68.20758,
+                144.41713,
+                133.01167
+            ],
+            "scale": [
+                -171.69705000000002,
+                4.1516145600000005,
+                31.909728000000005
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -1894.284570610474,
+                245.53530905034418,
+                1203.8691967975874
+            ],
+            "rotation": [
+                -58.52357,
+                160.47789,
+                133.32222
+            ],
+            "scale": [
+                -195.785625,
+                4.240329120000001,
+                31.213350000000005
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -2836.9111759309158,
+                69.99581634219304,
+                606.6419322317536
+            ],
+            "rotation": [
+                -60.857063,
+                176.61613,
+                129.91705
+            ],
+            "scale": [
+                -200.00622000000004,
+                4.176985440000001,
+                31.9151145
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -2086.6349230574233,
+                330.00232565428087,
+                1196.206306417179
+            ],
+            "rotation": [
+                -45.36304,
+                142.4469,
+                140.69073
+            ],
+            "scale": [
+                -143.70591000000002,
+                3.4227513600000004,
+                25.454338500000006
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -1721.5291277771912,
+                431.46335302181376,
+                1435.4175646364854
+            ],
+            "rotation": [
+                -39.19876,
+                141.38535,
+                138.88255
+            ],
+            "scale": [
+                -141.99057000000002,
+                3.4914688320000002,
+                25.798695000000002
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                2644.7088396443974,
+                425.68424284984155,
+                3542.218403191264
+            ],
+            "rotation": [
+                -60.351574,
+                -95.571785,
+                30.602781
+            ],
+            "scale": [
+                -139.74543000000003,
+                3.5538462720000004,
+                31.417296000000007
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                850.0732423462098,
+                41.12307250175477,
+                3899.3898246298304
+            ],
+            "rotation": [
+                -56.644764,
+                162.40335,
+                174.43388
+            ],
+            "scale": [
+                -139.74543000000003,
+                3.5538460800000005,
+                31.417293000000004
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                1480.6228690429284,
+                27.887815898574654,
+                3679.928563149048
+            ],
+            "rotation": [
+                -74.67041,
+                -171.47818,
+                137.26706
+            ],
+            "scale": [
+                -139.74544500000002,
+                3.5538460800000005,
+                31.417296000000007
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                1140.5023923742012,
+                32.3007279904848,
+                3761.8259812158803
+            ],
+            "rotation": [
+                -76.35558,
+                -164.32951,
+                129.96278
+            ],
+            "scale": [
+                -139.74544500000002,
+                3.5538454080000004,
+                31.417293000000004
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                708.2482132802659,
+                245.7973097323349,
+                4174.002852748261
+            ],
+            "rotation": [
+                -62.7259,
+                148.25354,
+                154.38365
+            ],
+            "scale": [
+                -107.153625,
+                2.7250084800000005,
+                24.090067500000004
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                1123.8424188567017,
+                208.15805308087903,
+                4103.764050436776
+            ],
+            "rotation": [
+                -68.11258,
+                165.00366,
+                135.49933
+            ],
+            "scale": [
+                -107.15361000000001,
+                2.7250086720000004,
+                24.090069000000003
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                1415.939371516598,
+                204.1507253810931,
+                4037.500352455507
+            ],
+            "rotation": [
+                -70.62528,
+                -164.86365,
+                102.09878
+            ],
+            "scale": [
+                -107.15363100000002,
+                2.7250084800000005,
+                24.090067500000004
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                1117.7403652188643,
+                234.30147071413435,
+                4305.581418841037
+            ],
+            "rotation": [
+                -50.09736,
+                159.76025,
+                146.51572
+            ],
+            "scale": [
+                -139.74543000000003,
+                3.5538462720000004,
+                31.417293000000004
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                1369.6464797039066,
+                206.61465663933424,
+                4229.775788775112
+            ],
+            "rotation": [
+                -64.49387,
+                148.6955,
+                155.8812
+            ],
+            "scale": [
+                -139.74543000000003,
+                3.5538460800000005,
+                31.417296000000007
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                1652.4865358863783,
+                189.1197303850161,
+                4164.991565952764
+            ],
+            "rotation": [
+                -60.925953,
+                176.4609,
+                128.61809
+            ],
+            "scale": [
+                -139.74544500000002,
+                3.5538460800000005,
+                31.417296000000007
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                1862.5672016115388,
+                261.85577251447705,
+                4169.363838049719
+            ],
+            "rotation": [
+                -74.208336,
+                -128.44714,
+                79.54895
+            ],
+            "scale": [
+                -139.74543000000003,
+                3.5538460800000005,
+                31.417293000000004
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                1728.2017319435226,
+                155.06740969169888,
+                3739.8367472721857
+            ],
+            "rotation": [
+                -72.546906,
+                -175.27419,
+                131.75558
+            ],
+            "scale": [
+                -139.74544500000002,
+                3.5538456000000007,
+                31.417293000000004
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                2200.562973976356,
+                258.8389254676198,
+                4268.309464560883
+            ],
+            "rotation": [
+                -69.46017,
+                -89.002144,
+                49.949688
+            ],
+            "scale": [
+                -139.74541500000004,
+                3.5538460800000005,
+                31.417293000000004
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                2506.124541673571,
+                357.72626540262996,
+                4117.261257871358
+            ],
+            "rotation": [
+                -73.96884,
+                -78.83793,
+                27.476957
+            ],
+            "scale": [
+                -139.74543000000003,
+                3.5538456000000007,
+                31.417296000000007
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                2022.3676016115387,
+                270.0466125144771,
+                3686.9130180497186
+            ],
+            "rotation": [
+                -74.208336,
+                -128.44714,
+                79.54895
+            ],
+            "scale": [
+                -139.74543000000003,
+                3.5538460800000005,
+                31.417293000000004
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                2361.308491066935,
+                312.02209346352566,
+                3590.3810588624274
+            ],
+            "rotation": [
+                -79.714066,
+                -127.95245,
+                66.25463
+            ],
+            "scale": [
+                -139.74542550000004,
+                3.5538454080000004,
+                31.417293000000004
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                1004.854094094354,
+                -12.059296523725422,
+                2539.67437509424
+            ],
+            "rotation": [
+                -81.667656,
+                -133.61751,
+                35.247482
+            ],
+            "scale": [
+                -141.324069,
+                4.157047200000001,
+                32.2036305
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -1331.9330695696087,
+                129.9706861784438,
+                1326.982095467802
+            ],
+            "rotation": [
+                -47.68103,
+                128.26625,
+                179.9386
+            ],
+            "scale": [
+                -202.48465500000003,
+                4.0777296000000005,
+                35.63854800000001
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -968.1242695696089,
+                37.3696741784438,
+                1597.4788954678022
+            ],
+            "rotation": [
+                -47.68103,
+                128.26625,
+                179.9386
+            ],
+            "scale": [
+                -202.48465500000003,
+                4.0777296000000005,
+                35.63854800000001
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -279.88078244386054,
+                -96.68165473767017,
+                1818.7049094261613
+            ],
+            "rotation": [
+                -62.902817,
+                124.46461,
+                174.37175
+            ],
+            "scale": [
+                -201.12271500000003,
+                4.25108448,
+                34.33877400000001
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -478.58519994142614,
+                -5.428787207257238,
+                1732.7737810705623
+            ],
+            "rotation": [
+                -66.055664,
+                127.078835,
+                171.43839
+            ],
+            "scale": [
+                -200.9601,
+                4.236975360000001,
+                33.57970050000001
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -1529.2636444334921,
+                412.9345290176665,
+                1628.4809474486633
+            ],
+            "rotation": [
+                -33.826546,
+                126.53478,
+                134.1501
+            ],
+            "scale": [
+                -121.88117100000002,
+                3.6938792160000005,
+                28.116235500000005
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -1194.066359574424,
+                286.3078779732998,
+                1723.6590614419583
+            ],
+            "rotation": [
+                -53.238754,
+                116.42762,
+                156.79396
+            ],
+            "scale": [
+                -128.96777400000002,
+                3.460980768,
+                28.290285000000004
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -749.4631995097735,
+                203.810804816268,
+                1954.395679808771
+            ],
+            "rotation": [
+                -59.208538,
+                128.01234,
+                143.52469
+            ],
+            "scale": [
+                -125.50179000000001,
+                3.3482897280000006,
+                26.383014000000003
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -441.8761823421642,
+                149.22970339307338,
+                2094.706917031586
+            ],
+            "rotation": [
+                -60.826275,
+                132.9286,
+                138.05342
+            ],
+            "scale": [
+                -124.13441100000003,
+                3.305166720000001,
+                25.732704000000002
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -4374.329411082222,
+                -114.56979055482543,
+                -746.9204401615334
+            ],
+            "rotation": [
+                -63.383614,
+                -179.59003,
+                127.98788
+            ],
+            "scale": [
+                -200.08530000000005,
+                4.1482752000000005,
+                32.174752500000004
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -3980.3395860576557,
+                -47.35389124916067,
+                -414.03592042662143
+            ],
+            "rotation": [
+                -69.13524,
+                138.53972,
+                174.88628
+            ],
+            "scale": [
+                -200.04684000000003,
+                4.040832480000001,
+                32.252967000000005
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -3712.261446057656,
+                8.06195395083933,
+                13.333423573378541
+            ],
+            "rotation": [
+                -69.13524,
+                138.53972,
+                174.88628
+            ],
+            "scale": [
+                -200.04684000000003,
+                4.040832480000001,
+                32.252967000000005
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -3496.96491628025,
+                42.311817208419065,
+                457.2241625933536
+            ],
+            "rotation": [
+                -63.012974,
+                156.97116,
+                152.45335
+            ],
+            "scale": [
+                -200.81016000000002,
+                4.148916960000001,
+                31.339171500000003
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -3030.803215930915,
+                230.01146634219302,
+                728.6957322317536
+            ],
+            "rotation": [
+                -60.857063,
+                176.61613,
+                129.91705
+            ],
+            "scale": [
+                -200.00622000000004,
+                4.176985440000001,
+                31.9151145
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -2646.5365759309157,
+                285.71328234219305,
+                952.2287322317536
+            ],
+            "rotation": [
+                -60.857063,
+                176.61613,
+                129.91705
+            ],
+            "scale": [
+                -200.00622000000004,
+                4.176985440000001,
+                31.9151145
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -2237.2365414324286,
+                534.9277680646907,
+                1195.292456689455
+            ],
+            "rotation": [
+                -56.661224,
+                -170.47151,
+                114.55595
+            ],
+            "scale": [
+                -197.05866000000003,
+                4.16959632,
+                34.0490775
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -1909.5164182821106,
+                748.3489666661275,
+                1590.7929054056901
+            ],
+            "rotation": [
+                -65.69333,
+                176.22179,
+                92.73801
+            ],
+            "scale": [
+                -151.14597450000002,
+                4.055438688000001,
+                31.747872000000008
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -1463.6613181056475,
+                558.1437380094237,
+                1793.6462854083993
+            ],
+            "rotation": [
+                -50.753036,
+                111.57962,
+                165.38884
+            ],
+            "scale": [
+                -174.99763500000003,
+                4.53773712,
+                38.88382500000001
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -1110.0434535241814,
+                387.86660394403714,
+                1958.0431191088392
+            ],
+            "rotation": [
+                -52.667637,
+                113.62345,
+                162.16338
+            ],
+            "scale": [
+                -172.2768,
+                4.508762688000001,
+                37.35574950000001
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -805.8766478240801,
+                278.25086343998,
+                2098.614929146812
+            ],
+            "rotation": [
+                -56.88369,
+                119.49253,
+                155.13643
+            ],
+            "scale": [
+                -169.84090500000002,
+                4.437123840000001,
+                35.935785
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -543.7739391512613,
+                178.54177459485336,
+                2220.020935019615
+            ],
+            "rotation": [
+                -55.013668,
+                116.62952,
+                158.52383
+            ],
+            "scale": [
+                -171.01990500000005,
+                4.473588960000001,
+                36.61628250000001
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -251.58572910590482,
+                75.64373485614618,
+                2352.9469521451942
+            ],
+            "rotation": [
+                -48.74336,
+                129.34589,
+                150.3998
+            ],
+            "scale": [
+                -182.43058500000004,
+                4.499740320000001,
+                35.356750500000004
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -31.011827006773487,
+                114.50605101784141,
+                2493.8347896452606
+            ],
+            "rotation": [
+                -71.213745,
+                144.50912,
+                139.70949
+            ],
+            "scale": [
+                -183.87282000000002,
+                4.150439520000001,
+                31.790569500000004
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -15.990661154980103,
+                -31.855281116854876,
+                2043.2897872452018
+            ],
+            "rotation": [
+                -60.549664,
+                125.17949,
+                164.5881
+            ],
+            "scale": [
+                -193.55617500000002,
+                4.3245537600000015,
+                34.6039515
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                322.5213190017893,
+                89.0431751162301,
+                2821.496551317623
+            ],
+            "rotation": [
+                -79.80655,
+                -174.52916,
+                107.89515
+            ],
+            "scale": [
+                -195.46396500000003,
+                4.12219536,
+                31.624674000000006
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                714.1705986234612,
+                23.16497058244944,
+                2872.278350344381
+            ],
+            "rotation": [
+                -80.36923,
+                -161.46483,
+                89.041725
+            ],
+            "scale": [
+                -175.36131,
+                4.049698224000001,
+                31.409949000000008
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                327.2212269932265,
+                7.106255017841417,
+                2204.0971896452606
+            ],
+            "rotation": [
+                -71.213745,
+                144.50912,
+                139.70949
+            ],
+            "scale": [
+                -183.87282000000002,
+                4.150439520000001,
+                31.790569500000004
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                711.867899056443,
+                -53.51513157550043,
+                2360.2091366870977
+            ],
+            "rotation": [
+                -73.36799,
+                127.764366,
+                142.8622
+            ],
+            "scale": [
+                -157.69953000000004,
+                4.153083840000001,
+                32.54650050000001
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -288.176802,
+                601.105356,
+                785.031426
+            ],
+            "rotation": [
+                -23.31412,
+                -22.02698,
+                -32.87931
+            ],
+            "scale": [
+                5.82153,
+                0.65852,
+                5.82153
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -212.48967599999997,
+                632.152074,
+                784.755846
+            ],
+            "rotation": [
+                -23.20358,
+                -22.14031,
+                -32.50197
+            ],
+            "scale": [
+                5.82153,
+                0.65852,
+                5.82153
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                590.2193809302244,
+                218.03615919121577,
+                885.3405189388186
+            ],
+            "rotation": [
+                10.903577,
+                -72.107376,
+                6.741567
+            ],
+            "scale": [
+                15.364015500000004,
+                1.8406884000000003,
+                15.364018500000004
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                598.0159064847412,
+                173.80319981894445,
+                890.2896330080669
+            ],
+            "rotation": [
+                8.135997,
+                -72.58826,
+                5.6049542
+            ],
+            "scale": [
+                15.364017,
+                1.840688064,
+                15.364017
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                552.5340546964292,
+                181.30686703987192,
+                886.0512659320265
+            ],
+            "rotation": [
+                16.20299,
+                -71.004616,
+                9.036841
+            ],
+            "scale": [
+                15.364014750000003,
+                1.8406879200000001,
+                15.364017
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                498.03601269642917,
+                347.3080150398719,
+                865.5348659320265
+            ],
+            "rotation": [
+                16.20299,
+                -71.004616,
+                9.036841
+            ],
+            "scale": [
+                15.364014750000003,
+                1.8406879200000001,
+                15.364017
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                561.0928566964292,
+                314.29632703987187,
+                873.6342659320264
+            ],
+            "rotation": [
+                16.20299,
+                -71.004616,
+                9.036841
+            ],
+            "scale": [
+                15.364014750000003,
+                1.8406879200000001,
+                15.364017
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                409.28139600000003,
+                514.650576,
+                836.8912499999999
+            ],
+            "rotation": [
+                41.54538,
+                -60.35826,
+                24.66666
+            ],
+            "scale": [
+                2.71585,
+                0.21026,
+                2.71585
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                431.89390199999997,
+                493.63925399999994,
+                840.967266
+            ],
+            "rotation": [
+                47.04563,
+                -55.7374,
+                30.31558
+            ],
+            "scale": [
+                3.77459,
+                0.29222,
+                3.77459
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                425.48452199999997,
+                500.919786,
+                839.758182
+            ],
+            "rotation": [
+                27.38939,
+                -67.69296,
+                14.65442
+            ],
+            "scale": [
+                3.77459,
+                0.29222,
+                3.77459
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                450.62791799999997,
+                483.83876399999997,
+                845.174136
+            ],
+            "rotation": [
+                -12.74404,
+                -74.48006,
+                -2.30391
+            ],
+            "scale": [
+                10.85864,
+                0.84066,
+                10.85864
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                446.21923799999996,
+                473.252586,
+                849.1636440000001
+            ],
+            "rotation": [
+                27.07927,
+                -67.80711,
+                14.47938
+            ],
+            "scale": [
+                15.36402,
+                1.84069,
+                15.36402
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -162.192522,
+                702.577332,
+                765.835794
+            ],
+            "rotation": [
+                -25.56918,
+                -21.27703,
+                -39.20561
+            ],
+            "scale": [
+                2.22885,
+                0.94185,
+                2.22885
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -98.34852,
+                747.993384,
+                766.284234
+            ],
+            "rotation": [
+                -26.97762,
+                -19.34169,
+                -44.71177
+            ],
+            "scale": [
+                2.22885,
+                0.94185,
+                2.22885
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                171.210612,
+                729.028146,
+                798.771888
+            ],
+            "rotation": [
+                48.93693,
+                -53.75606,
+                32.65748
+            ],
+            "scale": [
+                2.89779,
+                0.60091,
+                2.89779
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                122.31955199999999,
+                761.0969459999999,
+                791.855688
+            ],
+            "rotation": [
+                48.93693,
+                -53.75606,
+                32.65748
+            ],
+            "scale": [
+                2.89779,
+                0.60091,
+                2.89779
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                154.87404,
+                744.69246,
+                795.97458
+            ],
+            "rotation": [
+                39.58971,
+                -61.69092,
+                22.97091
+            ],
+            "scale": [
+                2.89779,
+                0.60091,
+                2.89779
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                190.227054,
+                714.808194,
+                801.192096
+            ],
+            "rotation": [
+                39.58971,
+                -61.69093,
+                22.97091
+            ],
+            "scale": [
+                5.46443,
+                0.46657,
+                5.46443
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                222.97379999999998,
+                690.1481819999999,
+                806.13717
+            ],
+            "rotation": [
+                28.46509,
+                -67.28526,
+                15.27235
+            ],
+            "scale": [
+                5.46443,
+                0.46657,
+                5.46443
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                207.026148,
+                697.143372,
+                806.393418
+            ],
+            "rotation": [
+                28.46509,
+                -67.28526,
+                15.27235
+            ],
+            "scale": [
+                5.46443,
+                1.12727,
+                5.46443
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                265.101798,
+                628.12866,
+                815.592144
+            ],
+            "rotation": [
+                48.38207,
+                -54.36307,
+                31.94408
+            ],
+            "scale": [
+                4.62734,
+                0.50108,
+                4.62734
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                245.883834,
+                649.919856,
+                815.8429560000001
+            ],
+            "rotation": [
+                28.46508,
+                -67.28526,
+                15.27236
+            ],
+            "scale": [
+                8.14153,
+                1.67954,
+                8.14153
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                304.389078,
+                537.893436,
+                833.455032
+            ],
+            "rotation": [
+                28.4651,
+                -67.28526,
+                15.27237
+            ],
+            "scale": [
+                11.23016,
+                2.3167,
+                11.23017
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                294.49933799999997,
+                604.859676,
+                826.1092319999999
+            ],
+            "rotation": [
+                28.4651,
+                -67.28526,
+                15.27237
+            ],
+            "scale": [
+                11.23016,
+                2.3167,
+                11.23017
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                320.119914,
+                548.339472,
+                833.639688
+            ],
+            "rotation": [
+                36.3678,
+                -63.619,
+                20.44274
+            ],
+            "scale": [
+                11.23016,
+                2.3167,
+                11.23017
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                348.09773399999995,
+                500.054148,
+                839.3537220000001
+            ],
+            "rotation": [
+                22.84928,
+                -69.22425,
+                12.21613
+            ],
+            "scale": [
+                16.32474,
+                1.95579,
+                16.32474
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                441.5626283832424,
+                420.449070271562,
+                853.9953583519949
+            ],
+            "rotation": [
+                0.5661998,
+                -73.61092,
+                2.6478355
+            ],
+            "scale": [
+                15.364017,
+                1.840688064,
+                15.364017
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                481.2856310987064,
+                271.33735376623093,
+                873.7950689049534
+            ],
+            "rotation": [
+                11.399068,
+                -72.01471,
+                6.949089
+            ],
+            "scale": [
+                20.648385000000005,
+                2.4737830080000003,
+                20.648385000000005
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                453.80780707865307,
+                343.8382059389489,
+                864.5513268656221
+            ],
+            "rotation": [
+                7.9646482,
+                -72.616035,
+                5.5357456
+            ],
+            "scale": [
+                20.648382,
+                2.4737830080000003,
+                20.648386500000004
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                478.85221912877023,
+                141.44582502388096,
+                880.4218700971006
+            ],
+            "rotation": [
+                7.9646482,
+                -72.616035,
+                5.535747
+            ],
+            "scale": [
+                20.648385000000005,
+                0.6607485120000001,
+                20.648386500000004
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                463.3655951287703,
+                92.40014502388097,
+                884.0518700971005
+            ],
+            "rotation": [
+                7.9646482,
+                -72.616035,
+                5.535747
+            ],
+            "scale": [
+                20.648385000000005,
+                0.6607485120000001,
+                20.648386500000004
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                440.9904320487194,
+                72.98217654430117,
+                884.2387945133185
+            ],
+            "rotation": [
+                -4.96427,
+                -74.11081,
+                0.57528335
+            ],
+            "scale": [
+                20.648385000000005,
+                0.6607487040000001,
+                20.648385000000005
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                394.3949360487194,
+                33.368480344301176,
+                884.5471945133185
+            ],
+            "rotation": [
+                -4.96427,
+                -74.11081,
+                0.57528335
+            ],
+            "scale": [
+                20.648385000000005,
+                0.6607487040000001,
+                20.648385000000005
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                333.852730307119,
+                15.27004242485782,
+                879.1017627546756
+            ],
+            "rotation": [
+                -5.4054174,
+                -83.08965,
+                5.2287774
+            ],
+            "scale": [
+                20.648385000000005,
+                0.6607485120000001,
+                20.648386500000004
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -395.445222134189,
+                98.16885309631542,
+                853.9114330916914
+            ],
+            "rotation": [
+                -7.937616,
+                -27.285408,
+                0.03586649
+            ],
+            "scale": [
+                20.648394,
+                0.6607485120000001,
+                20.648397000000003
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -366.8763608551557,
+                324.4870108224324,
+                839.5493136967709
+            ],
+            "rotation": [
+                -19.717844,
+                -24.750952,
+                -26.15367
+            ],
+            "scale": [
+                5.8133985,
+                1.1164218240000001,
+                5.813398950000001
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -357.2947131173554,
+                50.25147839154476,
+                842.7679978882447
+            ],
+            "rotation": [
+                -6.463464,
+                -23.662933,
+                5.5291967
+            ],
+            "scale": [
+                20.648389500000004,
+                0.6607483200000001,
+                20.648386500000004
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -358.6597651186637,
+                435.8724672065593,
+                830.5330616941905
+            ],
+            "rotation": [
+                -22.89764,
+                -60.15914,
+                -15.502281
+            ],
+            "scale": [
+                3.2580265500000003,
+                0.6256806720000001,
+                3.2580265500000003
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -428.94529901043956,
+                185.73985648353573,
+                817.6062142428809
+            ],
+            "rotation": [
+                0.21336491,
+                -48.583538,
+                -13.873835
+            ],
+            "scale": [
+                20.648394,
+                2.3356937760000003,
+                20.648394
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -473.9920386317305,
+                271.25567300828794,
+                801.781235012293
+            ],
+            "rotation": [
+                -12.130179,
+                -55.381943,
+                -3.190615
+            ],
+            "scale": [
+                20.648389500000004,
+                2.3356936320000004,
+                20.648389500000004
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -480.0725914265477,
+                203.0612253923188,
+                854.7106081098831
+            ],
+            "rotation": [
+                6.9199805,
+                -59.682762,
+                -26.890295
+            ],
+            "scale": [
+                20.648386500000004,
+                2.3356936320000004,
+                20.648397000000003
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -532.9284746133469,
+                197.71956937802352,
+                814.460229931335
+            ],
+            "rotation": [
+                -2.6482959,
+                -49.447315,
+                -16.276932
+            ],
+            "scale": [
+                20.648385000000005,
+                2.3356936320000004,
+                20.648389500000004
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -438.2803829946933,
+                269.87893787891664,
+                827.4198244268517
+            ],
+            "rotation": [
+                -8.895859,
+                -27.33529,
+                -2.2649848
+            ],
+            "scale": [
+                20.648386500000004,
+                2.3356945440000003,
+                20.648386500000004
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -500.30244214908566,
+                357.72945457412436,
+                812.1278495578484
+            ],
+            "rotation": [
+                -16.463945,
+                -27.064487,
+                -16.849747
+            ],
+            "scale": [
+                20.648389500000004,
+                2.33569392,
+                20.648389500000004
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -482.71644299469324,
+                352.42298987891667,
+                812.8908244268517
+            ],
+            "rotation": [
+                -8.895859,
+                -27.33529,
+                -2.2649848
+            ],
+            "scale": [
+                20.648386500000004,
+                2.3356945440000003,
+                20.648386500000004
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -350.35236000000003,
+                547.345116,
+                845.338632
+            ],
+            "rotation": [
+                -8.7253,
+                -15.47131,
+                -36.91905
+            ],
+            "scale": [
+                20.64838,
+                2.33569,
+                20.64839
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -147.685104,
+                706.83204,
+                766.0003679999999
+            ],
+            "rotation": [
+                -25.75499,
+                -21.53266,
+                -38.53054
+            ],
+            "scale": [
+                2.48151,
+                1.04862,
+                2.48151
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -79.204536,
+                754.83606,
+                765.1328339999999
+            ],
+            "rotation": [
+                -26.97762,
+                -19.3417,
+                -44.71178
+            ],
+            "scale": [
+                3.4329,
+                1.45065,
+                3.4329
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -147.996738,
+                687.51084,
+                773.3506259999999
+            ],
+            "rotation": [
+                -26.11287,
+                -20.05296,
+                -42.10728
+            ],
+            "scale": [
+                3.4329,
+                1.45065,
+                3.4329
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -335.302302,
+                593.969442,
+                786.535788
+            ],
+            "rotation": [
+                -16.20904,
+                -25.64001,
+                -17.29471
+            ],
+            "scale": [
+                5.82153,
+                0.65852,
+                5.82153
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -308.89135200000004,
+                590.850546,
+                786.90246
+            ],
+            "rotation": [
+                -20.16609,
+                -23.7138,
+                -26.39709
+            ],
+            "scale": [
+                5.82152,
+                0.65852,
+                5.82153
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -275.973762,
+                589.175226,
+                787.143882
+            ],
+            "rotation": [
+                -25.4981,
+                -19.4041,
+                -41.05815
+            ],
+            "scale": [
+                5.82152,
+                0.65852,
+                5.82153
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -231.404622,
+                636.2534459999999,
+                782.897082
+            ],
+            "rotation": [
+                -25.4981,
+                -19.4041,
+                -41.05815
+            ],
+            "scale": [
+                5.82152,
+                0.65852,
+                5.82153
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -253.71123599999999,
+                586.101978,
+                787.052202
+            ],
+            "rotation": [
+                -21.59993,
+                -22.7854,
+                -29.99181
+            ],
+            "scale": [
+                8.73593,
+                0.98819,
+                8.73593
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -309.134166,
+                547.7506979999999,
+                788.8215359999999
+            ],
+            "rotation": [
+                -21.96578,
+                -22.52516,
+                -30.94218
+            ],
+            "scale": [
+                20.64839,
+                2.33569,
+                20.64839
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -346.731102,
+                406.738368,
+                833.3037
+            ],
+            "rotation": [
+                -24.84368,
+                -21.02427,
+                -39.30188
+            ],
+            "scale": [
+                5.8134,
+                1.11642,
+                5.8134
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -322.548366,
+                410.548926,
+                833.4024479999999
+            ],
+            "rotation": [
+                -23.28639,
+                -22.37431,
+                -34.98775
+            ],
+            "scale": [
+                5.8134,
+                1.11642,
+                5.8134
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -348.92064085515574,
+                374.2140328224324,
+                836.0417136967709
+            ],
+            "rotation": [
+                -19.717844,
+                -24.750952,
+                -26.15367
+            ],
+            "scale": [
+                5.8133985,
+                1.1164218240000001,
+                5.813398950000001
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -410.3446229946933,
+                405.99290987891663,
+                802.2936244268517
+            ],
+            "rotation": [
+                -8.895859,
+                -27.33529,
+                -2.2649848
+            ],
+            "scale": [
+                20.648386500000004,
+                2.3356945440000003,
+                20.648386500000004
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -430.93236780185595,
+                328.7855163089184,
+                800.942344923437
+            ],
+            "rotation": [
+                -4.7985177,
+                -27.955124,
+                6.0661554
+            ],
+            "scale": [
+                20.648394,
+                2.3356949760000005,
+                20.648397000000003
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -378.342282134189,
+                72.78433869631542,
+                825.3964330916914
+            ],
+            "rotation": [
+                -7.937616,
+                -27.285408,
+                0.03586649
+            ],
+            "scale": [
+                20.648394,
+                0.6607485120000001,
+                20.648397000000003
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -334.6601931173554,
+                32.997962631544766,
+                828.6013978882448
+            ],
+            "rotation": [
+                -6.463464,
+                -23.662933,
+                5.5291967
+            ],
+            "scale": [
+                20.648389500000004,
+                0.6607483200000001,
+                20.648386500000004
+            ]
+        },
+        {
+            "id": "\\]PillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]Pillar$",
+            "lookupMethod": "Regex",
+            "active": true,
+            "duplicate": 1,
+            "position": [
+                -262.1691206531711,
+                23.666904796228447,
+                831.5625230202364
+            ],
+            "rotation": [
+                -5.4054003,
+                -27.655626,
+                5.228777
+            ],
+            "scale": [
+                20.648385000000005,
+                0.6607487040000001,
+                20.648389500000004
+            ]
+        },
+        {
+            "id": "SmallPillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]LaserL$",
+            "lookupMethod": "Regex",
+            "duplicate": 1,
+            "components": {
+                "ILightWithId": {
+                    "lightID": 100
+                }
+            },
+            "position": [
+                -30,
+                -3,
+                180
+            ],
+            "rotation": [
+                0,
+                0,
+                -50
+            ],
+            "scale": [
+                30,
+                1,
+                30
+            ]
+        },
+        {
+            "id": "SmallPillarPair\\.\\[\\d*\\]PillarL\\.\\[\\d*\\]LaserL$",
+            "lookupMethod": "Regex",
+            "duplicate": 1,
+            "components": {
+                "ILightWithId": {
+                    "lightID": 100
+                }
+            },
+            "position": [
+                30,
+                -3,
+                180
+            ],
+            "rotation": [
+                0,
+                0,
+                50
+            ],
+            "scale": [
+                30,
+                1,
+                30
+            ]
+        },
+        {
+            "id": "[0]Environment",
+            "lookupMethod": "EndsWith",
+            "components": {
+                "BloomFogEnvironment": {
+                    "attenuation": 0.000001,
+                    "startY": -420,
+                    "height": 200
+                }
+            }
+        }
+    ],
+    "materials": {}
+}

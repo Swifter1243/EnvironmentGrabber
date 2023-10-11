@@ -8,35 +8,22 @@ import { existsSync } from 'https://deno.land/std@0.196.0/fs/mod.ts'
 ? Run with "deno run --allow-all --no-check script.ts" in the terminal.
 */
 
-// TODO: Do environments for 52 hearts and spells
-/*
-52 Hearts - Dusk (4:18)
-52 Hearts - Vibrant Auroras (1:14)
-52 Hearts - Purple Auroras (0:41) 
-52 Hearts - Green Auroras (3:56)
-
-Spells - Monolith (1:25)
-Spells - Awakening (2:14)
-Spells - Open Sky (2:50)
-Spells - Chrysalis (3:06)
-*/
-
 //! ------ YOU CHANGE ------
 
 /** The author of the environment. */
 const AUTHOR = `Swifter`
 /** What you want to name the environment. */
-const NAME = `52 Hearts - Vibrant Auroras`
+const NAME = `Spells - Chrysalis`
 /** The version of the environment. (not game version) */
 const VERSION = '0.0.1'
 /** Describe the environment. */
-const DESCRIPTION = `https://beatsaver.com/maps/355af`
+const DESCRIPTION = `https://beatsaver.com/maps/35a0b`
 
 /** Difficulty in the map to take the environment from. */
 const INPUT_DIFFICULTY: rm.DIFFNAME = 'ExpertPlusStandard'
 /** The directory of the map to take from. */
 const PROJECT_DIR =
-    `F:/Steam/steamapps/common/Beat Saber/Beat Saber_Data/CustomWIPLevels/52_Hearts`
+    `F:/Steam/steamapps/common/Beat Saber/Beat Saber_Data/CustomWIPLevels/Spells`
 /**
     Where to export the environment to.
     Environments are picked up by the game in "[your beat saber directory]/UserData/Chroma/Environments/"
@@ -48,7 +35,7 @@ const EXPORT_LOCATION =
     Time to sample the environment at.
     Can be expressed as a single number for the beat or a timestamp (such as '0:00')
 */
-const SAMPLE_TIME: Timestamp = '0:15'
+const SAMPLE_TIME: Timestamp = '3:06'
 
 /** Whether to force static lights in the environment (use only custom initializing events) */
 const FORCE_STATIC_LIGHTS = true
@@ -63,6 +50,9 @@ const HUD_TRANSFORM: Transform = {
     // position: [0, 0.3, 2.5],
     // rotation: [90, 0, 0],
     // scale: [0.5, 0.5, 0],
+
+    rotation: [60, 0, 0],
+    position: [0, -1, 7],
 
     // The "untouched" distance the panel is from the origin
     // Used to rotate UI in a more intuitive way, around the bottom of the panel
