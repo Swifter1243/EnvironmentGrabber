@@ -170,7 +170,8 @@
                     "lightID": 218
                 }
             }
-        ]
+        ],
+        "forceEffectsFilter": "NoEffects"
     },
     "environment": [
         {
